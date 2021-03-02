@@ -10,10 +10,6 @@ body {
   height: 10000px;
 }
 
-.myMOUSE {
-  cursor: default;
-}
-
 html, body {
   height: 100%;
   transition-delay: 10s;
