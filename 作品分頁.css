@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.project {
+  background-color: black;
+  height: 500vh;
+}
+.project img {
+  margin: 0 auto;
+  width: 770px;
+  height: 420px;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    background-color: black;
+    margin: auto;
+    height: 100%;
+  }
+  .project img {
+    width: 460px;
+  }
+}/*# sourceMappingURL=作品分頁.css.map */

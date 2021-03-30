@@ -8,8 +8,8 @@ setInterval( function() {
   count += 1;
   const typewriteAni = document.getElementById('typewrite-animated');
   const typewriteText = document.getElementById('typewrite-text');
-  if (typewriteAni.classList.contains('typewriter')) {
-    typewriteAni.classList.remove('typewriter');
+  if (typewriteAni.classList.contains('typewrite-text')) {
+    typewriteAni.classList.remove('typewrite-text');
   } else {
     typewriteAni.classList.add('typewriter');
     typewriteAni.addEventListener('animationend', function() {

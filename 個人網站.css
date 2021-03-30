@@ -323,6 +323,10 @@ i {
 #s2 h3 {
   font-size: 68px;
   position: relative;
+  -webkit-animation: animated-h3 2s 5s;
+          animation: animated-h3 2s 5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 #s2 .content_paragraph {
   color: #81BA92;
@@ -597,5 +601,21 @@ i {
     font-weight: 100;
     bottom: -400px;
     font-family: Avenir Next;
+  }
+}
+@-webkit-keyframes animated-h3 {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes animated-h3 {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }/*# sourceMappingURL=個人網站.css.map */

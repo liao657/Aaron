@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.project{
+    background-color: black;
+    height: 500vh;
+    img{
+        margin:  0 auto;
+        width: 770px;
+        height: 420px;
+    }
+}
+@media screen and(max-width:768px){
+    .project{
+        background-color: black;
+        margin: auto;
+        height: 100%;
+        img{
+            width: 460px;
+        }
+    }
+}

@@ -341,8 +341,11 @@ transition: 2s;
       height: 50%;
       top:125vh;
       h3{
+          
           font-size: 68px;
           position: relative;
+          animation: animated-h3 2s 5s;
+          animation-fill-mode: backwards;
       }
       .content_paragraph{
           
@@ -642,3 +645,11 @@ font-size: 40px;
         font-family: Avenir Next;
       }
 }
+@keyframes animated-h3{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    }
