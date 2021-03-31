@@ -1,6 +1,9 @@
 
 $( ".animation" ).delay(800).fadeOut(300).fadeIn( 400 )    ;
 $( "#s1" ).fadeOut(200)  .slideDown(1000);
+$(".content_b").fadeOut(1200).fadeIn( 1200 )    ;
+$(".content_video_home") .delay(3000);
+$("#frog") .delay(5000).fadeIn( 1200 )    ;
 // 透過 arr 陣列儲存要變化的文字內容
 const arr = ['Full', 'Full Stack', 'Full Stack Development']
 let count = 0;
