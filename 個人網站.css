@@ -205,10 +205,11 @@ html, body {
 
 i {
   position: absolute;
+  display: none;
 }
 
-.side-menu nav::before {
-  width: 0.5px;
+.side-menu ul::before {
+  width: 1px;
   height: 100vh;
   position: absolute;
   top: 0;
