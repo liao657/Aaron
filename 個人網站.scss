@@ -185,8 +185,7 @@ nav a{
 
 }
 .side-button  {
-   
-display: block;
+
 z-index: 0;
 width: 50px;
 height: 50px;
@@ -196,17 +195,7 @@ height: 100%;
 position: fixed;
 
 }
-.side-button nav button{
-    display: block;
-    position: relative;
 
-
-    width: 20px;
-    height: 20px;
-margin: 60px 0;
-
-
-}
 .side-button nav a{
     position: relative;
 
@@ -216,26 +205,9 @@ margin: 60px 0;
     color: azure;
 }
 }
-.side-button nav a+a::before{
-    border-bottom: 1px solid #81BA92;
-    content: '';
-    position: absolute;
-    width: 40px;
-    left: 0;
-    top:0;
-    right: 0;
-    color: #81BA92;
-}
-i{
-    
-    top: -11px;
-    left: 10px;
-    bottom: 0;
 
+i{
     position: absolute;
-    padding-bottom: 10px;
-    
-    margin: 20px auto;
     
 }
 .side-menu nav::before{
