@@ -46,6 +46,12 @@ body{
 .content{
     color: #81BA92;
 }
+.data-scroll{
+    width: 100%;
+    height: 100vh;
+    
+  
+}
 #menu_control{
     position: absolute;
    top: 0;
@@ -84,6 +90,7 @@ body{
     position: absolute;
     right: 1vh;
     top:10px;
+    align-items: center;
     z-index: 1;
 }
 .menu_btn span{
@@ -113,8 +120,8 @@ background-color: transparent;
 outline: none;
     }
     button{
-width: 6vh;
-padding: 5px 10px;
+
+
 border: none;
 background-color: transparent;
 color: grey;
@@ -205,7 +212,6 @@ position: fixed;
     color: azure;
 }
 }
-
 i{
     position: absolute;
     display: none;
@@ -220,12 +226,9 @@ i{
     content: '';
 }
 
-.main_content {
-width: calc(100vw-15px);
-float: left;
-height: 200%;
 
-}
+
+
 #s1{
     position: absolute;
     left: 40vh;
@@ -262,7 +265,6 @@ height: 200%;
 
     }
 }
-.center_content {
 
     h2{
         color: #81BA92;
@@ -280,8 +282,7 @@ height: 200%;
         padding-left: 40px;
         z-index: 1;
     }
-   
-}
+
 .center_content h1{
 color: azure;
 font-size: 60px;
@@ -358,6 +359,7 @@ margin-top: 60px;
         letter-spacing: 1px;
           margin-top: 20px;
           font-weight: 100;
+          
           width: 280px;
           
       }

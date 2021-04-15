@@ -61,3 +61,15 @@ $("a").each(function (index, element) {
      }, parseInt(duration))
  });
 });
+
+function changuqtxtcolor(){
+  var element =
+  document.getElementById('uqtxt')
+  element.style.color='green'
+}
+
+$(document).ready(function(){
+	$(".changuqtxtcolor").click(function(){
+		$('#uqtxt').hide();
+	});
+});

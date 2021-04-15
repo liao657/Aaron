@@ -22,4 +22,92 @@
   .project img {
     width: 460px;
   }
+}
+.container {
+  display: grid;
+  grid-template-areas: "image1 image1 date" "image2 commit2 date2" "image3 commit3 date3" "image4 commit4 date4" "image5 commit5 date5";
+  border-radius: 3px;
+  border: solid 1px black;
+}
+.container > div {
+  padding: 8px;
+}
+
+.image1 {
+  background-color: pink;
+  grid-area: image1;
+}
+
+.date {
+  background-color: pink;
+  text-align: right;
+  grid-area: date;
+}
+
+.image2 {
+  color: pink;
+  border-top: solid 1px #dfe2e5;
+  grid-area: image2;
+}
+
+.commit2 {
+  border-top: solid 1px #dfe2e5;
+  grid-area: commit2;
+}
+
+.date2 {
+  border-top: solid 1px #dfe2e5;
+  text-align: right;
+  grid-area: date2;
+}
+
+.image3 {
+  color: pink;
+  border-top: solid 1px #dfe2e5;
+  grid-area: image3;
+}
+
+.commit3 {
+  border-top: solid 1px #dfe2e5;
+  grid-area: commit3;
+}
+
+.date3 {
+  border-top: solid 1px #dfe2e5;
+  text-align: right;
+  grid-area: date3;
+}
+
+.image4 {
+  color: pink;
+  border-top: solid 1px #dfe2e5;
+  grid-area: image4;
+}
+
+.commit4 {
+  border-top: solid 1px #dfe2e5;
+  grid-area: commit4;
+}
+
+.date4 {
+  border-top: solid 1px #dfe2e5;
+  text-align: right;
+  grid-area: date4;
+}
+
+.image5 {
+  color: pink;
+  border-top: solid 1px #dfe2e5;
+  grid-area: image5;
+}
+
+.commit5 {
+  border-top: solid 1px #dfe2e5;
+  grid-area: commit5;
+}
+
+.date5 {
+  border-top: solid 1px #dfe2e5;
+  text-align: right;
+  grid-area: date5;
 }/*# sourceMappingURL=作品分頁.css.map */
